@@ -1,0 +1,24 @@
+.main{
+    background: linear-gradient(103.27deg, #E2E8EC 0.61%, #FFFFFF 99.59%);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+h1{
+    color: #FF014F;
+}
+.typeJs{
+    position: relative;
+    transition: all linear .3s;
+}
+.typeJs::after{
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    width: 3px;
+    height: 100%;
+    background: #FF014F;
+}
